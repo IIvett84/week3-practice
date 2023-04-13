@@ -31,3 +31,28 @@ function myFirstFunction (firstName, lastName){
 }
 
 console.log(myFirstFunction("Márk ", "AG"));
+
+const cond1 = 2
+const cond2 = 2
+const num = 3
+
+function doubleTheNumber(num) {
+    let result = num*2
+    return result
+}
+const doubleNumber = doubleTheNumber(3)
+
+console.log(doubleTheNumber)
+console.log(doubleTheNumber())
+
+function score(letter) {
+    const scoreString = 'a';
+    if (letter === undefined) {
+        return 'Give me a letter'
+    } else if (scoreString === letter) {
+        return 'scored'
+    } else {
+        return 'try again'
+    }
+}
+console.log(score());
